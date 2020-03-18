@@ -75,9 +75,7 @@ public class TripletOfDice {
 		}
 	}
 	
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+	public String toString() {
+		return ("The die number 1 is a " + this.getFirstDie() + "\nThe die number 2 is a " + this.getSecondDie() + "\nThe die number 3 is a " + this.getThirdDie());
 	}
-
 }
